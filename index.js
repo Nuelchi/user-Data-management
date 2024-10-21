@@ -65,7 +65,7 @@ function displayStudents(Student){
 function displaySummary(){
     console.log("SUMMARY");
     Student.forEach((person, index) =>{
-        console.log(`${index + 1} ${person.name} (${person.age}) -- Average: ${person.averageGrades.toFixed(2)}`)
+        console.log(`${index + 1} - ${person.name} (${person.age}) -- Average: ${person.averageGrades.toFixed(2)}`)
     });
 }
 
